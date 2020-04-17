@@ -1,0 +1,100 @@
+#main-img {
+  height: 350px !important;
+  max-width: 350px !important;
+  object-fit: scale-down;
+  /* object-fit: scale-down; */
+}
+
+.card-body {
+  /* padding: 3rem 0 !important;
+  padding-bottom: 15px !important; */
+  background-color: #141414;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+#title {
+  max-width: 250px;
+  margin-left: -10px;
+  color: white;
+  font-size: 16px;
+}
+
+#Price-badge {
+  background: #dbb2ff !important;
+  margin-right: -10px;
+}
+
+#card-text {
+  max-width: 300px;
+}
+
+#Card {
+  margin: 5px !important;
+  border-color: white !important;
+}
+
+.heart {
+  width: auto;
+  height: 35px;
+  float: right;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+
+.middle-section {
+  margin-bottom: -10px;
+  margin-top: 40px;
+}
+
+.star-score {
+  margin-right: 1px;
+  margin-right: -18px;
+}
+
+.star-score img {
+  width: auto;
+  height: 24px;
+  float: right;
+}
+
+.retailers {
+  float: left;
+  margin-left: -22px;
+  margin-bottom: -22px;
+}
+
+.retailers img {
+  width: auto;
+  height: 24px;
+  margin: 3px;
+}
+
+#Bottom-section {
+  display: flex;
+  justify-content: center;
+}
+
+#Read-button {
+  float: left !important;
+  margin-right: 120px;
+  margin-left: -52px;
+  margin-top: 20px !important;
+  width: 125px;
+  color: white;
+  background: none;
+  border: none;
+  font-style: italic;
+}
+
+#Review-button {
+  float: right !important;
+  width: 88px;
+  margin-right: -22px;
+  color: white;
+  background: #5600e8;
+  border-color: #7f39fb;
+  font-weight: bolder !important;
+}
